@@ -1,0 +1,54 @@
+*{
+            box-sizing: border-box;
+            margin: 0%;
+            padding: 0%;
+            
+         }
+    header{
+            margin-top: 0%;
+            margin-left: 15%;
+            width: 70%;
+            padding: 15px;
+            height: 3rem;
+            background-color: rgb(159, 231, 207);
+            text-align: center;
+            color: rgb(255, 255, 255);
+         }
+    nav{
+            margin-top: 1rem;
+            margin-left: 15%;
+            width: 70%;
+            padding: 15px;
+            height: 3rem;
+            background-color: rgb(159, 231, 207);
+            text-align: center;
+            color: rgb(255, 255, 255);
+         }
+    section{
+            margin-top: 1rem;
+            margin-left: 15%;
+            width: 70%;
+            padding: 15px;
+            height: 3rem;
+            background-color: rgb(159, 231, 207);
+            text-align: center;
+            color: rgb(255, 255, 255);
+    
+         }
+    footer{
+            margin-top: 1rem;
+            margin-left: 15%;
+            width: 70%;
+            padding: 15px;
+            height: 3rem;
+            background-color: rgb(159, 231, 207);
+            text-align: center;
+            color: rgb(255, 255, 255);
+        
+    
+        }
+    div{
+        width: auto;
+        height: auto;
+    }
+
