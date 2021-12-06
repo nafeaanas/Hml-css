@@ -1,15 +1,15 @@
-nav> ul {
+nav>ul {
     list-style: none; 
     margin-left: 15%;
     margin-top: 3%;
  
 }
-nav> li {
+nav>ul li{
     display: inline;
     margin: 1%;
 
 }
-nav> a{
+nav>ul li a{
     font-family: serif;
     font-size: large;
     color: black;
@@ -17,7 +17,7 @@ nav> a{
     
     
 }
-nav> li :hover{
+nav>ul li :hover{
     text-decoration: underline;
     font-size: 20px;
 }
@@ -37,11 +37,20 @@ section>ol li
 section>ol li a
 {
     text-decoration: none;
-    font-size: 16px;
-    color:grey;
-    padding: 15px 25px 15px 0;
+    font-size: 15px;
+    color:rgb(110, 110, 110);
+    padding: 15px 10px 15px 0px;
 }
 section> ol li a:hover
 {
     text-decoration: underline;
+}
+section {
+    margin-top: 50px;
+    margin-left: -20px;
+}
+.intro{
+    margin-top: 40px;
+    margin-left: 20px;
+}
 }
