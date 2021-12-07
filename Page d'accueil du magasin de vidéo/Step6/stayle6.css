@@ -81,7 +81,9 @@ section {
   
 }
 .rrp
-{color: grey;}
+{color: grey;
+padding-top: 1px;
+}
 span
 {
     text-decoration: underline;
@@ -90,6 +92,7 @@ span
 {
     text-transform: capitalize;
     color: rgb(40, 209, 40);
+    padding-top: 1px;
 }
 header{
     display:flex;
@@ -97,5 +100,8 @@ header{
 }
 header nav{
     width: 60%;
+}
+#pr{
+    padding-top: 1px;
 }
 
