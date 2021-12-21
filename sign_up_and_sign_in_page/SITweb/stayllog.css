@@ -1,15 +1,206 @@
-body{
-    background: rgb(238,172,16);
-background: linear-gradient(90deg, rgba(238,172,16,1) 19%, rgba(200,0,255,1) 100%);
-margin: 0%;
-display: flex;
+*{
+    box-sizing: border-box;
 }
-#Divparent{
+
+body{
+background: rgb(238,172,16);
+background: linear-gradient(90deg, rgba(238,172,16,1) 19%, rgba(200,0,255,1) 100%);
+margin: 0;
+padding: 0;
+width: 100%;
+font-family: 'Noto Sans', sans-serif;
+box-sizing: border-box;  
+align-items: center;
+position: relative;
+display: flex;
+align-items: center;
+justify-content: center;
+text-decoration: none;
+}
+/*#Divparent{
+    
+
     background: rgb(255, 255, 255);
     width: 100%;
-    height: 100%;
+    height: 83vh;
     display: inline-block;
-    padding-right: 80px;
-    padding-left: 60px;    
+    border-radius: 20px;
+    margin-top: 53px;
+    border:solid 1px black;
+    box-shadow:   5px 3px 8px 2px #686464ba;
+    box-sizing: border-box;  
+
+
+
+}
+.New{
+    display: inline-block;
+}
+h1{
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+#circle{
+    margin-left: 675px;
+    margin-top: 25px;
+    display: inline-block;
+    box-sizing: border-box;
     
+}
+#Illustra{
+    display: inline-block;
+    margin-left: 675px;
+    border: aqua;
+    border-style: solid;
+
+}
+#sos
+{
+   border: #686;
+   
+   border-style: solid;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h1 {
+    margin: 10px 0 0 0;
+}
+
+.parent {
+    display: flex; 
+    text-align: center;
+    justify-content: space-between;
+    background: rgb(255, 255, 255);
+    width: 100%;
+    border-radius: 20px;
+    margin: 5.5% 15%;
+    border:solid 1px black;
+    box-shadow:   5px 3px 8px 2px #686464ba;
+    box-sizing: border-box;  
+    height: 100%;
+}
+
+.cont1 {
+    width: 50%;
+    text-align: start;
+    margin: 0 9%;
+    padding: 5% 0;
+}
+.cont1 .box {
+    width: 100%;
+    height: 100px;
+}
+
+.box input {
+    box-sizing: border-box;
+    width: 76%;
+    height: 40%;
+    border-radius: 6px;
+    border: solid 1.7px black;
+    background: white;
+    vertical-align: middle;
+    margin: 2% 0;
+}
+.boxsmall input {
+    width: 100%;
+    height: 100%;
+}
+
+.cont1 .boxsmall  {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 70px;
+}
+
+.cont1 .boxsmall h5 {
+    width: 40%;
+    margin: 0 -3px;
+    text-align: center;
+}    
+
+.cont1 .boxsmall input {
+    width: 10%;
+}   
+
+.boxsmall .check {
+    margin: 0;
+    
+}
+
+[type="text"] {
+    padding: 0 4%;
+}
+
+[type="password"] {
+    padding: 0 4%;
+}
+
+.circle {
+    position: absolute;
+    top: 102px;
+    right: 223px;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.user a {
+    padding: 0 10px;
+    text-decoration: none;
+    color: rgb(79, 114, 218);
+}
+
+.cont2 {
+    width: 50%;
+    padding: 5% 5%;
+
+}
+
+.cont2 img {
+    width: 100%;
+    max-width: 245px;
+}
+
+.images img {
+    width: 30px;
+    
+}
+.images{
+    display: inline-block;
+}
+
+.cont1 button {
+    background: linear-gradient(90deg, rgba(238,172,16,1) 19%, rgba(200,0,255,1) 100%);
+    width: 76%;
+    height: 10%;
+    border-radius: 6px;
+    border: 0;
+}
+#signwith{
+    width: 74%;
+    text-align:center;
+}
+#signwith img{
+    width: 29%;
 }
