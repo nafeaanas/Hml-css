@@ -1,0 +1,32 @@
+body{
+    background: bisque;
+}
+header{
+    background: black;
+    height: 29vh;
+    color: white;
+    padding: 10px 30px ;
+    
+}
+section{
+    background: blueviolet;
+    height: 60vh;
+    width: 90vh;
+    margin-left: 25%;
+    border-radius: 2%;
+    box-shadow: 2PX 3PX 4PX 2PX #646060;
+    padding: 0PX 30PX ;
+    margin-top: -4%;
+
+}
+header ul{
+    list-style: none;
+    display: flex;
+    margin-left: 50%;
+}
+div{
+    display: flex;
+}
+header ul li{
+    padding: 0px 6px;
+} 

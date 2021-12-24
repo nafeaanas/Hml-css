@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="74" height="69.021" viewBox="0 0 74 69.021">
+  <defs>
+    <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fb7b30"/>
+      <stop offset="1" stop-color="#a831a5"/>
+    </linearGradient>
+    <filter id="iconmonstr-check-mark-4_1_" x="0" y="0" width="74" height="69.021" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#fff" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#iconmonstr-check-mark-4_1_)">
+    <path id="iconmonstr-check-mark-4_1_2" data-name="iconmonstr-check-mark-4 (1)" d="M28,0C12.537,0,0,11.422,0,25.51s12.537,25.51,28,25.51S56,39.6,56,25.51,43.463,0,28,0ZM25.083,36.76l-10.5-9.277,4.333-3.95,6.167,5.327,13.167-12.3,4.333,3.948Z" transform="translate(9 6)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>
