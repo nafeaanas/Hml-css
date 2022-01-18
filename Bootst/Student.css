@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Libre+Baskerville&family=Merriweather:ital,wght@0,700;1,700&family=Montserrat:wght@400;700;900&family=Roboto+Condensed:wght@700&display=swap');
+html{
+  height: 100%;
+  width: 100%;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat';
+}
+body {
+    background: #fcf8f8 !important;
+}
+
+.nav-link:hover {
+    background-color: #d2d3c5 !important
+}
+
+.nav-link .fa {
+    transition: all 1s
+}
+
+.nav-link:hover .fa {
+    transform: rotate(360deg)
+}
+.Sidbar{
+    background: #FAFFC1;
+    height: 100%;
+}
+.E-classe{
+    font-size: medium;
+}
+#AdminName{
+    font-size: medium;
+}
+#Admin{
+    font-size: small;
+}
+.nav{
+    font-size: 80%;
+}
+body {
+    background-color: #f9f9fa
+}
+
+
+
+
+
+.table-theme thead {
+    font-size: .6rem;
+    color: rgb(223, 215, 215) !important;
+
+}
+
+.table-theme tbody td {
+    background-color: #fff;
+    border-width: 0;
+    box-shadow: 0 1px 0 rgba(160, 175, 185, .05), 0 -1px 0 rgba(160, 175, 185, .05);
+    font-size: .9rem
+}
+
+.table-theme tbody td:first-child {
+    border-radius: .25rem 0 0 .25rem
+}
+
+.table-theme tbody td:last-child {
+    border-radius: 0 .25rem .25rem 0
+}
+
+.table-row {
+    border-collapse: separate !important;
+    border-spacing: 0 10px !important
+}
+
+@media (min-width: 992px) {
+    .page-container {
+        max-width: 1140px;
+        margin: 0 auto
+    }
+}
+

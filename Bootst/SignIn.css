@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Libre+Baskerville&family=Merriweather:ital,wght@0,700;1,700&family=Montserrat:wght@400;700;900&family=Roboto+Condensed:wght@700&display=swap');
+html{
+  height: 100%;
+  width: 100%;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat';
+}
+body{
+background: linear-gradient(69.66deg, #00C1FE 19.39%, #FAFFC1 96.69%);
+}
+.SinInCart{
+  width: 400px;
+  border-radius: 4%;
+}
+.SinIn{
+  height: 100vh;
+}
+::-webkit-input-placeholder{
+  color: rgb(198, 205, 211) !important;
+  font-size: small !important;
+}
+.Enter{
+  font-size: small;
+}
+.Forgot{
+  font-size: small;
+}
+.SIGN{
+  font-size: large;
+}
+a{
+  text-decoration: none;
+}
+
+
+
+
